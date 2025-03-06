@@ -1,3 +1,5 @@
+// 📝 Problem: Check the type of triangle based on the sides `a`, `b`, and `c`. 
+
 #include <stdio.h>
 
 int main() {
@@ -15,5 +17,6 @@ int main() {
     } else {
         printf("This is not a triangle");
     }
+    
     return 0;
 }

@@ -1,3 +1,5 @@
+// 📝 Problem: Perform basic arithmetic operations based on the input operator.
+
 #include <stdio.h>
 
 int main() {
@@ -5,22 +7,22 @@ int main() {
     char c;
 
     scanf("%d %c %d", &a, &c, &b);
-    switch (c){
-    case '+' : 
-        printf("%d %c %d = %d", a, c, b, a+b);
+    switch (c) {
+    case '+': 
+        printf("%d %c %d = %d", a, c, b, a + b);
         break;
-    case '-' : 
-        printf("%d %c %d = %d", a, c, b, a-b);
+    case '-': 
+        printf("%d %c %d = %d", a, c, b, a - b);
         break;
-    case '/' : 
+    case '/': 
         if (b == 0) {
             printf("Error: Division by zero is not allowed.");
         } else {
-            printf("%d %c %d = %d", a, c, b, a/b);
+            printf("%d %c %d = %d", a, c, b, a / b);
         }
         break;
-    case '*' : 
-        printf("%d %c %d = %d", a, c, b, a*b);
+    case '*': 
+        printf("%d %c %d = %d", a, c, b, a * b);
         break;
     default:
         printf("Your character is not valid!");

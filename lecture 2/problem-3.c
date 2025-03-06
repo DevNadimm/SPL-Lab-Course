@@ -1,3 +1,5 @@
+// 📝 Problem: Check if a given number `n` is a prime number.
+
 #include <stdio.h>
 
 int main() {
